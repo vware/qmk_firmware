@@ -1,0 +1,1 @@
+WEAR_LEVELING_DRIVER = sn32_flash

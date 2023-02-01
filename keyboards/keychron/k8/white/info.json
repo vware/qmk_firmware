@@ -1,0 +1,35 @@
+{
+    "keyboard_name": "Keychron K8",
+    "manufacturer": "Keychron",
+    "url": "https://www.keychron.com/products/keychron-k8-tenkeyless-wireless-mechanical-keyboard",
+    "processor": "SN32F268F",
+    "maintainer": "snc",
+    "bootloader": "sn32-dfu",
+    "debounce": 1,
+    "diode_direction": "COL2ROW",
+    "features": {
+        "led_matrix": true,
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true,
+        "dip_switch": true
+    },
+    "led_matrix": {
+        "driver": "SN32F26x"
+    },
+    "matrix_pins": {
+        "cols": [ "A0", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14", "A15", "D0"],
+        "rows": [ "C3", "C4", "C5", "C6", "C7", "C8"]
+    },
+    "indicators": {
+        "caps_lock": "B12"
+    },
+    "usb": {
+        "vid": "0x3434",
+        "device_version": "1.0.0",
+        "wait_for": false
+    }
+}

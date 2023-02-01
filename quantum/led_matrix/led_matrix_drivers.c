@@ -244,4 +244,13 @@ const led_matrix_driver_t led_matrix_driver = {
     .set_value_all = CKLED2001_set_value_all,
 };
 #    endif
+
+#elif defined(SN32F26x)
+
+const led_matrix_driver_t led_matrix_driver = {
+    .init          = SN32F26x_init,
+    .flush         = SN32F26x_flush,
+    .set_value     = SN32F26x_set_value,
+    .set_value_all = SN32F26x_set_value_all,
+};
 #endif
